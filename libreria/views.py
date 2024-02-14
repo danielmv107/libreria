@@ -27,3 +27,9 @@ def editar(request, id):
         formulario.save()
         return redirect('libros')
     return render(request, 'libros/editar.html',{'formulario': formulario})
+
+def eliminar(request, id):
+    libro = Libro.objects.get(id=id)
+    libro.delete()
+    return redirect('libros')
+
