@@ -3,8 +3,8 @@
 Es un CRUD con el fin de aprender a manejar Django, donde se simula un sistema de librería donde se almacena la información básica de un libro, permitiéndonos agregar nuevos libros, editarlos o eliminarlos.
 
 ## Requisitos
-Python
-git
+Python,
+git,
 XAMPP (opcional)
 
 
