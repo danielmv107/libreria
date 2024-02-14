@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backkends.mysql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'libreria2',
         'USER': 'root', 
-        'PASSWORD': '',
+        'PASSWORD':'',
         'HOST': 'localhost',
         'PORT': '3306',
 
