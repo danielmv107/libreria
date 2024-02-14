@@ -38,7 +38,7 @@
                         </td>
                         <td>{{ libro.descripcion }}</td>
                         <td>
-                            <a name="" id="" class="btn btn-info" href="#" role="button"> Editar </a>
+                            <a name="" id="" class="btn btn-info" href="{% url 'editar' libro.id %}" role="button"> Editar </a>
                             <a name="" id="" class="btn btn-danger" href="#" role="button"> Borrar </a>
                         </td>
                     </tr>
